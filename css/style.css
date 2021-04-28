@@ -4,40 +4,96 @@
     box-sizing: border-box;
 }
 
-/* header */
-
-nav{
-    background-color: red;
-}
-
-.clearfix::after{
+clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* header */
+
+/* nav */
+
+nav{
+    background-color: red;
+    padding-top: 40px;
+}
+
 #logo{
     float: left;
+    margin-left: 10%;
 }
 
 ul{
     float: left;
-    margin: 0 30%;
+    margin: 0 15%;
 }
 
 li{
     display: inline-block;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
 .button{
     background-color: whitesmoke;
     padding: 5px 10px;
-    float: left;
-    border-radius: 40%;
+    float: right;
+    margin-right: 10%;
+    border-radius: 10px;
 }
 
+/* jumbotron */
+
 .jumbo{
-    background-color: green;
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testo{
+    position: absolute;
+    color: white;
+    text-align: center;
+    max-width: 50%;
+    left: 25%;
+    padding-top: 100px;
+}
+
+h2{
+    line-height: 4;
+    font-size: 40px;
+}
+
+p{
+    line-height: 1.6;
+}
+
+/* bottoni jumbotron */
+
+.button2{
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    left: 35%;
+    bottom: 150px;
+}
+
+.button3{
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    right: 35%;
+    bottom: 150px;
 }
 
 /* sections */
@@ -58,12 +114,12 @@ nav{
     height: 100px;
 }
 
-.jumbo{
+section{
     height: 100px;
 }
 
-section{
-    height: 100px;
+.jumbo{
+    height: 500px;
 }
 
 footer{
