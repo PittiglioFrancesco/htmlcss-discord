@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+nav{
+    background-color: red;
+}
+
+.jumbo{
+    background-color: green;
+}
+
+/* sections */
+
+section{
+    background-color: yellow;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+/* debug */
+
+nav{
+    height: 100px;
+}
+
+.jumbo{
+    height: 100px;
+}
+
+section{
+    height: 100px;
+}
+
+footer{
+    height: 300px;
+}
