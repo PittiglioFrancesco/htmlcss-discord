@@ -10,6 +10,32 @@ nav{
     background-color: red;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo{
+    float: left;
+}
+
+ul{
+    float: left;
+    margin: 0 30%;
+}
+
+li{
+    display: inline-block;
+}
+
+.button{
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    float: left;
+    border-radius: 40%;
+}
+
 .jumbo{
     background-color: green;
 }
